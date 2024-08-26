@@ -322,7 +322,7 @@ void ControlDrum::_setAction(uint8_t value) {
 
 void ControlDrum::_setPWM(uint8_t value) {
     DEBUG(micros()); DEBUG(F(" Stepper Drum value: ")); DEBUGLN(value);
-    ControlPWM( value );
+    ControlPWM::_setPWM( value );
 }
 
 
