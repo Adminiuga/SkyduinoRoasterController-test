@@ -19,7 +19,7 @@
 #define PIN_EXHAUST     PA8
 #define PIN_DRUM        PA15
 #define PIN_HEAT_RELAY  PB8
-#define PIN_HEAT        PB9
+#define PIN_HEAT        PB9_ALT1
 #define PIN_NTC         PC5
 #define PIN_COOL        PC8
 
