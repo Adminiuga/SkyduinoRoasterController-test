@@ -22,6 +22,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           merge-multiple: true
+      - id: debug1
+        run: ls -lR
 
       - id: zip_firmware
         run: zip -r -5 '${{ env.firmware_zip }}' Firmware
